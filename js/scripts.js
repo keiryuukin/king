@@ -462,7 +462,6 @@ $(document).ready(function() {
         var $currentVidDiv = $(".video_modal.reveal-modal");
         var $currentVid = $currentVidDiv.find("video");
         var tempHtml = $currentVid.html();
-
         $currentVid.remove();
         $currentVidDiv.append("<video controls=\"\">" + tempHtml + "</video>");
         if(jQuery('.foundry_modal.reveal-modal').find('iframe').length){
