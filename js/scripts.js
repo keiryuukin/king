@@ -377,7 +377,7 @@ $(document).ready(function() {
         }
     });
     
-    $('.btn-modal').unbind('click').click(function(){
+    $('.btn-modal').unbind('click').click(function(){//play video
 
     	var linkedModal = $('.foundry_modal[modal-link="' + $(this).attr('modal-link') + '"]'),
             autoplayMsg = "";
@@ -391,7 +391,10 @@ $(document).ready(function() {
         linkedModal.toggleClass('reveal-modal');
         var $currentVidDiv = $(".video_modal.reveal-modal");
         var $currentVid = $currentVidDiv.find("video");
-        $currentVid.attr("autoplay","1")
+        $currentVid.remove();
+        var thisHtml = $currentVid.html();
+
+        $currentVidDiv.append("<video controls=\"\" autoplay=\"\">" + thisHtml + "</video>")
         return false; 
     });
     
