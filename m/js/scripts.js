@@ -480,7 +480,7 @@ $(document).ready(function() {
     });
     
     jQuery('.close-modal:not(.modal-strip .close-modal)').unbind('click').click(function(){
-        var $currentVidDiv = $(".video_modal.reveal-modal");
+        var $currentVidDiv = $(".foundry_modal.reveal-modal");
         var $currentVid = $currentVidDiv.find("video");
         var tempHtml = $currentVid.html();
 
@@ -499,7 +499,7 @@ $(document).ready(function() {
     });
     
     jQuery('.modal-screen').unbind('click').click(function(){
-        var $currentVidDiv = $(".video_modal.reveal-modal");
+        var $currentVidDiv = $(".foundry_modal.reveal-modal");
         var $currentVid = $currentVidDiv.find("video");
         var tempHtml = $currentVid.html();
         $currentVid.remove();
