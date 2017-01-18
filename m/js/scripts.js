@@ -425,6 +425,12 @@ $(document).ready(function() {
             linkedModal.find('iframe').attr('src', (linkedModal.find('iframe').attr('data-src') + autoplayMsg));
         }
         linkedModal.toggleClass('reveal-modal');
+        var $currentVidDiv = $(".foundry_modal.reveal-modal");
+        var $currentVid = $currentVidDiv.find("video");
+        $currentVid.remove();
+        var thisHtml = $currentVid.html();
+
+        $currentVidDiv.append("<video controls=\"\" autoplay=\"\">" + thisHtml + "</video>")
         return false; 
     });
     
@@ -474,6 +480,13 @@ $(document).ready(function() {
     });
     
     jQuery('.close-modal:not(.modal-strip .close-modal)').unbind('click').click(function(){
+        var $currentVidDiv = $(".video_modal.reveal-modal");
+        var $currentVid = $currentVidDiv.find("video");
+        var tempHtml = $currentVid.html();
+
+        $currentVid.remove();
+        $currentVidDiv.append("<video controls=\"\">" + tempHtml + "</video>")
+
         var modal = jQuery(this).closest('.foundry_modal');
         modal.toggleClass('reveal-modal');
         if(typeof modal.attr('data-cookie') !== "undefined"){
@@ -486,6 +499,11 @@ $(document).ready(function() {
     });
     
     jQuery('.modal-screen').unbind('click').click(function(){
+        var $currentVidDiv = $(".video_modal.reveal-modal");
+        var $currentVid = $currentVidDiv.find("video");
+        var tempHtml = $currentVid.html();
+        $currentVid.remove();
+        $currentVidDiv.append("<video controls=\"\">" + tempHtml + "</video>");
         if(jQuery('.foundry_modal.reveal-modal').find('iframe').length){
             jQuery('.foundry_modal.reveal-modal').find('iframe').attr('src', '');
         }
