@@ -5,11 +5,12 @@
 	<div class="container top-align-transform">
         <div class="row">
             <div class="col-md-10 col-md-offset-1 col-sm-8 col-sm-offset-2 text-center">
-                <h3 class="uppercase deepblue mb16">全新交易介面   看盤同步操作</h3>
-                <p class="mainlead mb0 black">
+                <h3 class="uppercase mb16">全新交易介面   看盤同步操作</h3>
+                <p class="mainlead">
                    極速簡約下單流程   直連交易所   同步成交回報<br>
         			流暢進行高頻交易   嚴控行動網路延遲成交損失
                 </p>
+                <p class="mainlead demo_account mt8">試用帳號：0001-0030&nbsp;&nbsp;&nbsp;密碼：1</p>
             </div>
             
         </div>

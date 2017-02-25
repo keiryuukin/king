@@ -318,7 +318,7 @@ h2 {
   line-height: 48px;
 }
 h3 {
-  font-size: 32px;
+  font-size: 36px;
   line-height: 40px;
 }
 h4 {
@@ -373,19 +373,19 @@ h6,
   text-transform: uppercase;
 }
 h1.uppercase {
-  letter-spacing: 17px;
+  letter-spacing: 4px;
   margin-right: -17px;
 }
 h2.uppercase {
-  letter-spacing: 10px;
+  letter-spacing: 2px;
   margin-right: -10px;
 }
 h3.uppercase {
-  letter-spacing: 6px;
+  letter-spacing: 2px;
   margin-right: -6px;
 }
 h4.uppercase {
-  letter-spacing: 3px;
+  letter-spacing: 2px;
   margin-right: -3px;
 }
 h5.uppercase {
@@ -434,6 +434,7 @@ a:active,
 a:hover {
   text-decoration: none;
   outline: none;
+  color: #ffffff;
 }
 a {
   font-weight: 600;
@@ -460,7 +461,7 @@ a {
   opacity: 1;
 }
 a:hover {
-  color: #398f5d;
+  color: #ffffff;
   text-decoration: none;
 }
 .label {
@@ -569,7 +570,7 @@ ul.lead li {
 /*!---------- 5. SECTIONS ----------*/
 section,
 footer {
-  padding: 96px 0;
+  padding: 40px 0;
   position: relative;
   overflow: hidden;
 }
@@ -679,7 +680,6 @@ footer.bg-dark li,
   left: 0;
   z-index: 1;
   background: #292929;
-  background-size: cover !important;
   background-position: 50% 50% !important;
   transition: all 0.3s ease;
   -webkit-transition: all 0.3s ease;
@@ -698,7 +698,7 @@ footer.bg-dark li,
 }
 .parallax > .background-image-holder,
 .parallax .slides li > .background-image-holder {
-  height: 100vh;
+  //height: 100vh;
   top: -50vh;
   transition: all 0s ease !important;
   transition: opacity 0.3s ease !important;
@@ -897,7 +897,7 @@ nav .btn,
 .nav-bar {
   height: 55px;
   max-height: 55px;
-  line-height: 53px;
+  line-height: 55px;
   border-bottom: 1px solid #ccc;
 }
 .nav-bar .module,
@@ -2126,8 +2126,7 @@ button[type="submit"] .form-loading {
   margin-bottom: 0;
 }
 .accordion-1 .title {
-  background: #f5f5f5;
-  padding: 13px;
+  
   transition: all 0.3s ease;
   -webkit-transition: all 0.3s ease;
   -moz-transition: all 0.3s ease;
@@ -2173,17 +2172,24 @@ button[type="submit"] .form-loading {
 }
 .accordion-1 .active .title:hover {
   background: #47b475;
+  color: #274e75;
 }
 .accordion-2 .title {
-  font-size: 16px;
-  font-weight: 500;
-  padding: 16px 0;
-  border-bottom: 1px solid #ccc;
+  padding: 10px;
+  border-bottom: 1px solid #eff2f4;
   transition: all 0.3s ease;
   -webkit-transition: all 0.3s ease;
   -moz-transition: all 0.3s ease;
-  opacity: .7;
+  color: #2c3e50;
 }
+
+.accordion-2 .title h4 {
+  color: #2c3e50;
+  font-weight: 500;
+  font-size: 15px;
+  font-weight: bold;
+}
+
 .accordion-2 .title:before {
   content: "\e622";
   font-family: 'themify';
@@ -2201,7 +2207,11 @@ button[type="submit"] .form-loading {
   content: '\e61a';
 }
 .accordion-2 .content p {
-  padding: 16px 0;
+  padding: 10px;
+    background-color: #f7f7f7;
+    padding-left: 20px;
+    overflow: hidden;
+    font-size: 12px;
 }
 .accordion-2 .title:hover {
   opacity: 1;
@@ -2598,7 +2608,7 @@ button[type="submit"] .form-loading {
 }
 /*!---------- 18. ICON FEATURES ----------*/
 .feature.boxed {
-  padding: 32px;
+  padding: 10px;
   background: #f8f8f8;
 }
 .feature.boxed.bg-dark {
@@ -3851,35 +3861,35 @@ video {
   }
 }
 .play-button {
-  width: 80px;
-  height: 80px;
-  border: 2px solid #fff;
-  text-align: center;
-  margin: 0 auto;
-  position: absolute;
-  top: 50%;
-  left: 50%;
-  margin-top: -40px;
-  margin-left: -40px;
-  z-index: 4;
-  border-radius: 50%;
-  transition: all 0.3s ease;
-  -webkit-transition: all 0.3s ease;
-  -moz-transition: all 0.3s ease;
-  cursor: pointer;
+  width: 60px;
+    height: 60px;
+    border: 5px solid #fff;
+    text-align: center;
+    margin: 0 auto;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    margin-top: -30px;
+    margin-left: -30px;
+    z-index: 4;
+    border-radius: 50%;
+    transition: all 0.3s ease;
+    -webkit-transition: all 0.3s ease;
+    -moz-transition: all 0.3s ease;
+    cursor: pointer;
 }
 .play-button:before {
   position: absolute;
-  top: 50%;
-  margin-top: -8px;
-  left: 50%;
-  margin-left: -5px;
-  content: '';
-  width: 0;
-  height: 0;
-  border-style: solid;
-  border-width: 7px 0 7px 14px;
-  border-color: transparent transparent transparent #ffffff;
+    top: 50%;
+    margin-top: -9px;
+    left: 50%;
+    margin-left: -6px;
+    content: '';
+    width: 0;
+    height: 0;
+    border-style: solid;
+    border-width: 10px 0 10px 20px;
+    border-color: transparent transparent transparent #ffffff;
 }
 .play-button:hover {
   transform: scale(0.95);
@@ -3924,7 +3934,7 @@ video {
   height: 0;
   border-style: solid;
   border-width: 20px 0 20px 31.0px;
-  border-color: transparent transparent transparent #ffffff;
+  border-color: transparent transparent transparent #68d274;
 }
 .play-button.large.dark:before {
   border-color: transparent transparent transparent #292929;

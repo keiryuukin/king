@@ -40,10 +40,10 @@ video {
 .foundry_modal .close-modal {
     z-index: 4;
     position: absolute;
-    top: 10px;
-    right: 0px;
+    top: 15px;
+    right: 12px;
     cursor: pointer;
-    font-size: 18px;
+    font-size: 20px;
 }
 .logo{
   position: absolute;z-index: 999;top: 10px;left: 10px;
@@ -105,7 +105,10 @@ nav.transparent .menu > li > a, nav.transparent .module.widget-handle i, nav.tra
     margin-right: 17px;
 }
 .searchbtn{
-   background: #3282c9;color: #ffffff;padding: 8px 30px;border-radius: 10px;
+   background: #ea2f2f;
+   color: #ffffff;
+   padding: 8px 30px;
+   border-radius: 6px;
    font-size: 16px;
 }
 @media (max-width: 990px)
@@ -121,7 +124,7 @@ nav.transparent .menu > li > a, nav.transparent .module.widget-handle i, nav.tra
       display: block;
   }
   h3.uppercase {
-      letter-spacing: 2px;
+      
       margin-right: -6px;
   }
   section {
@@ -168,8 +171,8 @@ nav.transparent .menu > li > a, nav.transparent .module.widget-handle i, nav.tra
 }
 .pricing-table {
     padding: 0px;border:1px solid #dddddd;
-    box-shadow: 0px 0px 10px #dddddd;
-    border-radius: 5px;
+    border-radius: 4px;
+    box-shadow: 0 15px 35px rgba(50,50,93,.1), 0 5px 15px rgba(0,0,0,.07);
 }
 .pricing-table .btn{
   margin-bottom: 10px;
@@ -244,13 +247,23 @@ a.btn.btn-type-2:hover{
   margin-bottom: 10px;
 }
 .section1blockv2{
-  height: 140px;
+  height: 100px;
   margin-bottom: 15px;
 }
 .hcenter{
     display: inline-block;
     height: 100%;
     vertical-align: middle;
+}
+
+/*section2*/
+.demo_account {
+  border: 2px solid #20ffa2;
+    border-radius: 4px;
+    width: 300px;
+    margin: 0 auto;
+    padding: 4px;
+    color: #20ffa2!important;
 }
 /*section3*/
 
@@ -263,11 +276,11 @@ a.btn.btn-type-2:hover{
 }
 #section4 .videoblock p{
   margin-bottom: 12px;
-  padding-left: 10px;
-  color: #4892d4!important;
-  line-height: 21px;
-  margin-top: 8px;
-  font-style: italic;
+    padding-left: 10px;
+    color: #5c945f!important;
+    line-height: 21px;
+    margin-top: 8px;
+    /* font-style: italic; */
 }  
 .step{padding: 0px}
 .step img{
@@ -284,7 +297,13 @@ a.btn.btn-type-2:hover{
     right: -5px;
 }
 #section4 .playvideo .play-button{
-    border: 4px solid #fff;
+    border: 6px solid #ffffff;
+    width: 80px;height: 80px;
+    margin-top: -35px;
+}
+
+#section4 .playvideo .play-button2{
+    border: 6px solid #68d274;
     width: 80px;height: 80px;
     margin-top: -35px;
 }
@@ -301,7 +320,7 @@ a.btn.btn-type-2:hover{
   padding: 0px 0px;
 }
 #section7{
-  padding: 30px 0px;
+  padding: 0px 0px;
 }
 #section7 .col-xs-3.iconpic{
   padding: 0px;
@@ -338,10 +357,11 @@ footer .qrtitle h5{
 
 /*font color*/
 .mainlead{
-  font-size: 2em;line-height: 30px;
+  font-size: 1.2em;
+  line-height: 24px;
 }
 .deepblue{
-  color: #3282c9!important
+  color: #525f7f!important
 }
 .black{
   color: #000!important
@@ -391,8 +411,6 @@ ul.footerul li a{
     position: fixed;
     bottom: 0;
     width: 100%;
-    border-top: 1px solid #e8e9eb;
-    border-bottom: 1px solid #e8e9eb;
     background: #f9f9f9;
 }
 .footerfade ul li div {
@@ -400,17 +418,14 @@ ul.footerul li a{
     display: inline-block;
 }
 .footerfade_ul {
-    padding: 5px 0;
-      margin-bottom: 0px;
+    margin-bottom: 0px;
 }
 .footerfade_ul li {
-    border: 1px soliad #6f6f6f;
-    border-radius: 12px;
     position: relative;
-    width: 30%;
-    margin-left: 3%;
+    width: 20%;
     float: left;
-    height: 40px;
+    height: 50px;
+    text-align: center;
 }
 .footerfade .more_li div {
     display: block;
@@ -606,4 +621,25 @@ ul.footerul li a{
 }
 .mobile-screen .slider-assist img{
 width: 100%;
+}
+
+.high {
+    color: #ff5252!important;
+    font-weight: bold;
+}
+
+.notice table {
+    border-collapse: collapse;
+    margin: 5px 0px;
+    width: 100%;
+}
+
+.notice table th {
+    background-color: #bf0000;
+    color: #ffffff;
+}
+.notice table th, .notice table td {
+    border: 1px solid black;
+    padding: 5px 10px;
+    text-align: center;
 }

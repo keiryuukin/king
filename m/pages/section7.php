@@ -1,17 +1,11 @@
-<section class="section7back">
-	<div>
-	    <img alt="image" class="background-image" src="img/back2.jpg">
-	</div>
-</section>
-	<section class="cover fullscreen" id="section7">
-	
-	<div class="container">
-                <div class="row">
+<section class="cover fullscreen" id="section7">	
+	<div class="container" style="background-image: url(img/back2.jpg); background-size: cover; background-position: center; background-repeat: no-repeat;">
+                <div class="row" style="margin: 15px 0px;">
                     <div class="col-md-10 col-md-offset-1 col-sm-8 col-sm-offset-2 text-center">
-                        <h3 class="uppercase deepblue mb16">資金安全受最高規格保護</h3>
+                        <h3 class="deepblue mb16">資金安全受最高規格保護</h3>
                     </div>
                 </div>
-                <div class="row">
+                <div class="row" style="margin-bottom: 200px;">
                 		<div class="col-sm-6">
                 			<div class="col-xs-3 iconpic">
             			        <img src="img/s7icon1.png" alt="">

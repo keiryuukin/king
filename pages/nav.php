@@ -25,10 +25,10 @@
 					                    <a href="account.php">簡易開戶</a>
 					                </li>
 					                 <li>
-					                    <a href="withdraw.php">可零充值提現</a>
+					                    <a href="withdraw.php">充值提現</a>
 					                </li>
 					                 <li>
-					                    <a href="loan.php">秒速出入金</a>
+					                    <a href="loan.php">出金入金</a>
 					                </li>
 					                 <li>
 					                    <a href="about.php">關於我們</a>

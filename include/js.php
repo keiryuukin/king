@@ -28,7 +28,7 @@
 			});
 
   		 SA.redirection_mobile ({
-  		    mobile_url : "linkrich.com.tw/king/m",
+  		    mobile_url : "www.king75888.com/m/",
   		});	
 
        

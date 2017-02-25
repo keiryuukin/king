@@ -32,7 +32,7 @@ $(document).ready(function() {
         $(".mobile-screen .mb" + activeCount).addClass("active");
     }
     mobileSlide();
-    mobileSlideInterval = setInterval(mobileSlide, 2000);
+    mobileSlideInterval = setInterval(mobileSlide, 5000);
     
 });
 var mr_firstSectionHeight,

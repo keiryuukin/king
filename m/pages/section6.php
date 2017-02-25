@@ -6,16 +6,16 @@
                 <div class="modal-container mb16">
                  	<div class="playvideo text-center overlay">
                  		<div class="play-button btn-modal"></div>
-                 		<img src="img/video.jpg" >	
+                 		<img src="img/video_1.jpg" style="width: 100%">	
                  	</div>
                     <div class="foundry_modal no-bg">
                        <video controls="">
-                                      <source src="video/簡易開戶.mp4" type="video/mp4">
+                                      <source src="video/可零充值.mp4" type="video/mp4">
                                 </video>
                     </div>
                 </div>
-                <h4 class="deepblue mb8 text-center">微软必应广告代理</h4>
-                <p class="lead text-center">帮您扩大询盘量，提高销售额，提高外贸收益，科学推广产品。</p>
+                <h4 class="deepblue mb8 text-center">充值可零錢包</h4>
+                <p class="lead text-center">交割銀行轉帳充值可零</p>
             </div>
 		</div>
 		<div class="col-sm-3">
@@ -23,16 +23,16 @@
                 <div class="modal-container mb16">
                  	<div class="playvideo text-center overlay">
                  		<div class="play-button btn-modal"></div>
-                 		<img src="img/video.jpg" >	
+                 		<img src="img/video_2.jpg" style="width: 100%">	
                  	</div>
                     <div class="foundry_modal no-bg">
                        <video controls="">
-                                      <source src="video/簡易開戶.mp4" type="video/mp4">
+                                      <source src="video/入金.mp4" type="video/mp4">
                                 </video>
                     </div>
                 </div>
-                <h4 class="deepblue mb8 text-center">微软必应广告代理</h4>
-                <p class="lead text-center">帮您扩大询盘量，提高销售额，提高外贸收益，科学推广产品。</p>
+                <h4 class="deepblue mb8 text-center">入金期王平台</h4>
+                <p class="lead text-center">點擊可零發款申請入金</p>
             </div>
 		</div>
 		<div class="col-sm-3">
@@ -40,16 +40,16 @@
                 <div class="modal-container mb16">
                  	<div class="playvideo text-center overlay">
                  		<div class="play-button btn-modal"></div>
-                 		<img src="img/video.jpg" >	
+                 		<img src="img/video_3.jpg" style="width: 100%">	
                  	</div>
                     <div class="foundry_modal no-bg">
                        <video controls="">
-                                      <source src="video/簡易開戶.mp4" type="video/mp4">
+                                      <source src="video/出金.mp4" type="video/mp4">
                                 </video>
                     </div>
                 </div>
-                <h4 class="deepblue mb8 text-center">微软必应广告代理</h4>
-                <p class="lead text-center">帮您扩大询盘量，提高销售额，提高外贸收益，科学推广产品。</p>
+                <h4 class="deepblue mb8 text-center">秒速出金</h4>
+                <p class="lead text-center">點擊可零請求申請出金</p>
             </div>
 		</div>
 		<div class="col-sm-3">
@@ -57,16 +57,16 @@
                 <div class="modal-container mb16">
                  	<div class="playvideo text-center overlay">
                  		<div class="play-button btn-modal"></div>
-                 		<img src="img/video.jpg" >	
+                 		<img src="img/video_4.jpg" style="width: 100%">	
                  	</div>
                     <div class="foundry_modal no-bg">
                        <video controls="">
-                                      <source src="video/簡易開戶.mp4" type="video/mp4">
+                                      <source src="video/可零提現.mp4" type="video/mp4">
                                 </video>
                     </div>
                 </div>
-                <h4 class="deepblue mb8 text-center">微软必应广告代理</h4>
-                <p class="lead text-center">帮您扩大询盘量，提高销售额，提高外贸收益，科学推广产品。</p>
+                <h4 class="deepblue mb8 text-center">可零錢包提現</h4>
+                <p class="lead text-center">可零餘額提現至交割銀行</p>
             </div>
 		</div>
 	</div>

@@ -2,7 +2,7 @@
 <html lang="zh-TW">
     <head>
         <meta charset="utf-8">
-        <title>期王金融</title>
+        <title>期王金融 台指期貨交易平台</title>
         <?php include 'include/meta.php' ?>
         <?php include 'include/css.php' ?>
     </head>
@@ -31,9 +31,7 @@
 			<!-- section7 -->
 			<?php include 'pages/section7.php' ?>
 		    <!-- section7 End -->
-		    <!-- section8 -->
-		    <?php include 'pages/section8.php' ?>
-		    <!-- section8 End -->
+		    
 		    <?php include 'pages/footer.php' ?>
 			<!-- footer -->
 			<?php include 'pages/footerfloat.php' ?>

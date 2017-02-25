@@ -2,8 +2,7 @@
     <div class="container">
         <div class="row mb40 mb-xs-0">
             <div class="col-sm-10 col-sm-offset-1 text-center">
-                <h3 class="uppercase deepblue mb16">金融監管授權<br>
-全球領先的期貨交易服務平台</h3>
+                <h3 class="deepblue mb16">金融監管授權<br>全球領先的期貨交易服務平台</h3>
             </div>
         </div>
         
@@ -15,11 +14,11 @@
         		        <div class="text-center">
         		        <div class="section1block">
                     		<span class="hcenter"></span>
-        		            <img src="img/no1_icon4.png" alt="">
+        		            <img src="img/no1_icon4.png" alt="" >
         		        </div>
-        		            <h5 class="uppercase">香港特別行政區政府公司註冊處
-        		            <h6>HONG KONG Special Administrative Region COMPANIES rEGISTRY</h6>
-        		            <a href="#" class="searchbtn">立即查詢</a>
+        		            <h5>香港特別行政區政府公司註冊處
+        		            <h6>HONG KONG Special Administrative <br>Region Companies Registry</h6>
+        		            <a href="pdf/cr_king75888.pdf" class="searchbtn" target="_blank">立即查詢</a>
         		        </div>
         		    </div>
         		</div>
@@ -30,9 +29,9 @@
                     		<span class="heat"></span>
         		            <img src="img/no1_icon5.png" alt="">
         		        </div>
-        		            <h5 class="uppercase">澳大利亞證券與投資委員會
-        		            <h6>Australian Securities & Investments Commission</h6>
-        		            <a href="#" class="searchbtn">立即查詢</a>
+        		            <h5>澳大利亞證券與投資委員會
+        		            <h6>Australian Securities & <br>Investments Commission</h6>
+        		            <a href="http://www.search.asic.gov.au/cgi-bin/gfs010c?origin=flb&licence_no=234661&role_type=FB&cond_sdate=&cond_stime=&rep_no=%20&a7=&a8=&a9=&a10=&a11=&a12=&a13=&start_date=" class="searchbtn" target="_blank">立即查詢</a>
         		        </div>
         		    </div>
         		</div>
@@ -40,15 +39,15 @@
         </div>
         <hr class="mt16">
         <div class="row">
-        	<div class="col-sm-12 pd0 text-center">
+        	<div class="col-sm-12 pd0 text-center mt16">
             	 <div class="col-sm-4 col-xs-4">
                     <div class="feature feature-2 filled text-center">
                         <div class="text-center">
                         	<div class="section1blockv2">
                         		<span class="heat"></span>
-                            	<img src="img/no1_icon1.png" alt="">
+                            	<img src="img/no1_icon1.png" alt="" style="width: 75%;">
                             </div>
-                            <h5 class="uppercase">最佳教育<br>经纪商</h5>
+                            <h5 style="font-size: 0.9em;">最佳教育經紀商</h5>
                         </div>
                     </div>
                     
@@ -58,9 +57,9 @@
                         <div class="text-center">
                         	<div class="section1blockv2">
                         		<span class="heat"></span>
-                            	<img src="img/no1_icon2.png" alt="">
+                            	<img src="img/no1_icon2.png" alt="" style="width: 80%;">
                             </div>
-                            <h5 class="uppercase">亞洲最佳<br>交易商</h5>
+                            <h5 style="font-size: 0.9em;">亞洲最佳交易商</h5>
                         </div>
                     </div>
                     
@@ -70,9 +69,9 @@
                         <div class="text-center">
                         <div class="section1blockv2">
                     		<span class="heat"></span>
-                            <img src="img/no1_icon3.png" alt="">
+                            <img src="img/no1_icon3.png" alt="" style="width: 75%;">
                         </div>
-                            <h5 class="uppercase">澳大利亞最佳<br>交易商</h5>
+                            <h5 style="font-size: 0.9em;">澳大利亞最佳交易商</h5>
                         </div>
                     </div>
                     

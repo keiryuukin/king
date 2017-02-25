@@ -339,7 +339,7 @@ h6,
   h1,
   h1.large,
   .h1 {
-    font-size: 32px;
+    font-size: 36px;
     line-height: 40px;
     font-weight: 300;
   }
@@ -348,11 +348,11 @@ h6,
     line-height: 40px;
   }
   h3 {
-    font-size: 24px;
+    font-size: 28px;
     line-height: 32px;
   }
   h4 {
-    font-size: 18px;
+    font-size: 22px;
     line-height: 26px;
   }
   h5 {
@@ -419,7 +419,7 @@ p.lead {
 }
 @media all and (max-width: 767px) {
   p.lead {
-    font-size: 13px;
+    font-size: 16px;
     line-height: 24px;
   }
   p {
@@ -2174,15 +2174,22 @@ button[type="submit"] .form-loading {
   background: #47b475;
 }
 .accordion-2 .title {
-  font-size: 16px;
-  font-weight: 500;
   padding: 16px 0;
-  border-bottom: 1px solid #ccc;
+  border-bottom: 1px solid #eff2f4;
   transition: all 0.3s ease;
   -webkit-transition: all 0.3s ease;
   -moz-transition: all 0.3s ease;
-  opacity: .7;
+  padding-left: 10px;
+  color: #2c3e50;
 }
+
+.accordion-2 .title h4 {
+  color: #2c3e50;
+  font-weight: 500;
+  font-size: 15px;
+  font-weight: bold;
+}
+
 .accordion-2 .title:before {
   content: "\e622";
   font-family: 'themify';
@@ -2192,6 +2199,7 @@ button[type="submit"] .form-loading {
   font-variant: normal;
   text-transform: none;
   line-height: 1;
+
 }
 .accordion-2 .active .title {
   opacity: 1;
@@ -2200,7 +2208,11 @@ button[type="submit"] .form-loading {
   content: '\e61a';
 }
 .accordion-2 .content p {
-  padding: 16px 0;
+  padding: 10px;
+    background-color: #f7f7f7;
+    padding-left: 10px;
+    overflow: hidden;
+    font-size: 12px;
 }
 .accordion-2 .title:hover {
   opacity: 1;
@@ -2608,7 +2620,15 @@ button[type="submit"] .form-loading {
 }
 .bg-secondary .feature.boxed {
   background: #fff;
+  border-radius: 4px;
+  box-shadow: 0 15px 35px rgba(50,50,93,.1), 0 5px 15px rgba(0,0,0,.07);
 }
+
+.video_box_p {
+  font-size: 12px;
+
+}
+
 .feature.bordered {
   padding: 32px;
   border: 1px solid #ccc;
@@ -3850,36 +3870,69 @@ video {
   }
 }
 .play-button {
-  width: 80px;
-  height: 80px;
-  border: 2px solid #fff;
-  text-align: center;
-  margin: 0 auto;
-  position: absolute;
-  top: 50%;
-  left: 50%;
-  margin-top: -40px;
-  margin-left: -40px;
-  z-index: 4;
-  border-radius: 50%;
-  transition: all 0.3s ease;
-  -webkit-transition: all 0.3s ease;
-  -moz-transition: all 0.3s ease;
-  cursor: pointer;
+  width: 60px;
+    height: 60px;
+    border: 5px solid #fff;
+    text-align: center;
+    margin: 0 auto;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    margin-top: -28px;
+    margin-left: -32px;
+    z-index: 4;
+    border-radius: 50%;
+    transition: all 0.3s ease;
+    -webkit-transition: all 0.3s ease;
+    -moz-transition: all 0.3s ease;
+    cursor: pointer;
 }
 .play-button:before {
   position: absolute;
-  top: 50%;
-  margin-top: -8px;
-  left: 50%;
-  margin-left: -5px;
-  content: '';
-  width: 0;
-  height: 0;
-  border-style: solid;
-  border-width: 7px 0 7px 14px;
-  border-color: transparent transparent transparent #ffffff;
+    top: 50%;
+    margin-top: -9px;
+    left: 50%;
+    margin-left: -6px;
+    content: '';
+    width: 0;
+    height: 0;
+    border-style: solid;
+    border-width: 10px 0 10px 20px;
+    border-color: transparent transparent transparent #ffffff;
 }
+
+.play-button2 {
+  width: 60px;
+    height: 60px;
+    border: 5px solid #68d274;
+    text-align: center;
+    margin: 0 auto;
+    position: absolute;
+    top: 50%;
+    left: 42%;
+    margin-top: -28px;
+    margin-left: -32px;
+    z-index: 4;
+    border-radius: 50%;
+    transition: all 0.3s ease;
+    -webkit-transition: all 0.3s ease;
+    -moz-transition: all 0.3s ease;
+    cursor: pointer;
+}
+.play-button2:before {
+  position: absolute;
+    top: 50%;
+    margin-top: -9px;
+    left: 50%;
+    margin-left: -6px;
+    content: '';
+    width: 0;
+    height: 0;
+    border-style: solid;
+    border-width: 10px 0 10px 20px;
+    border-color: transparent transparent transparent #68d274;
+}
+
 .play-button:hover {
   transform: scale(0.95);
   -webkit-transform: scale(0.95);
@@ -3906,7 +3959,19 @@ video {
     height: 0;
     border-style: solid;
     border-width: 10px 0 10px 20.0px;
-    border-color: transparent transparent transparent #fff;
+    border-color: transparent transparent transparent #ffffff;
+  }
+  .play-button2:before {
+    position: absolute;
+    top: 50%;
+    margin-top: -9px;
+    margin-left: -8px;
+    content: '';
+    width: 0;
+    height: 0;
+    border-style: solid;
+    border-width: 10px 0 10px 20.0px;
+    border-color: transparent transparent transparent #68d274;
   }
 }
 .play-button.large {

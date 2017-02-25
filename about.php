@@ -2,7 +2,7 @@
 <html lang="zh-TW">
     <head>
         <meta charset="utf-8">
-        <title>期王金融</title>
+        <title>期王金融 台指期貨交易平台</title>
          <?php include 'include/meta.php' ?>
        	<?php include 'include/css.php' ?>
     </head>
@@ -12,12 +12,12 @@
 		<div class="main-container">
 			<section class="page-title page-title-1 image-bg overlay">
 		        <div class="background-image-holder">
-		            <img alt="Background Image" class="background-image" src="img/sub_title2.jpg">
+		            <img alt="Background Image" class="background-image" src="img/sub_title3.jpg">
 		        </div>
 		        <div class="container">
 		            <div class="row">
 		                <div class="col-sm-12 text-center">
-		                    <h2 class="uppercase mb0">關於我們</h2>
+		                    <h2 class="uppercase mb0">期王金融為廣大用戶推出<br>簡潔、易用的互聯網多元金融期貨投資服務平台<br>全程手機平台行動網路操作，高效便捷</h2>
 		                </div>
 		            </div>
 		            
@@ -26,11 +26,6 @@
 			<!-- section content -->
 		    <section>
 		        <div class="container">
-		            <div class="row mb40 mb-xs-0">
-		                <div class="col-sm-12 text-center">
-		                    <h3 class="uppercase deepblue mb16">期王金融為廣大用戶推出<br>簡潔、易用的互聯網多元金融期貨投資服務平台<br>全程手機平台行動網路操作，高效便捷</h3>
-		                </div>
-		            </div>
 		            <div class="row">
 
 		            	<div class="col-sm-8 col-sm-offset-2 col-md-push-2 text-left mb40">

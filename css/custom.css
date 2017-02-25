@@ -14,10 +14,7 @@
     margin: 0;
     text-align: center;
 }
-#sticky-social .accordion-1 li .title {
-    background: #f5f5f5;
-    padding-left: 15px;
-}
+
 #sticky-social .accordion-1 li.active .title {
     background: #cbe7ff;
     
@@ -25,7 +22,6 @@
 #sticky-social .accordion-1 li.active .content
 {
   text-align: center;
-  padding: 10px;
   background: #ececec;
 }
 
@@ -57,14 +53,14 @@ body {
     -moz-osx-font-smoothing: grayscale;
     font-size: 16px;
     line-height: 28px;
-    font-family: 'Open Sans', sans-serif; "微軟正黑體", "Microsoft JhengHei",  "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font-family: 'Open Sans', "文泉驛正黑", "WenQuanYi Zen Hei", "儷黑 Pro", "LiHei Pro", "微軟正黑體", "Microsoft JhengHei", "Helvetica Neue", Helvetica, Arial, sans-serif ;
     color: #3c3c3c;
     overflow-x: hidden;
 }
 
 h4 {
-    font-size: 35px;
-    line-height: 50px;
+    font-size: 24px;
+    line-height: 36px;
 }
 .caseslider{
   position: relative;background: url(../img/phonecase.png) center center;
@@ -98,7 +94,7 @@ h4 {
 }
 .overlay:before {
 
-    opacity: 0.6;
+    opacity: 0.3;
 }
 nav.transparent.fixed .menu > li > a, nav.transparent.fixed .module.widget-handle i {
     opacity: 1;
@@ -131,7 +127,7 @@ padding:0 ! important;
    
 }
 .menu li.active{
-	 border-bottom: 4px solid #3282c9
+	 border-bottom: 4px solid #f83637;
 }
 nav.transparent .menu > li ,nav.transparent .menu > li > a, nav.transparent .module.widget-handle i, nav.transparent .nav-utility {
     color: #ffffff;
@@ -143,8 +139,20 @@ nav.transparent .menu > li ,nav.transparent .menu > li > a, nav.transparent .mod
     margin-right: 11px;
 }
 .searchbtn{
- 	 background: #3282c9;color: #ffffff;padding: 8px 30px;border-radius: 10px;
+ 	 background: #ea2f2f;
+   color: #ffffff;
+   padding: 8px 30px;
+   border-radius: 6px;
  	 font-size: 16px;
+   transition: all 0.3s ease;
+    -webkit-transition: all 0.3s ease;
+    -moz-transition: all 0.3s ease;
+}
+.searchbtn:hover {
+    transition: all 0.3s ease;
+    -webkit-transition: all 0.3s ease;
+    -moz-transition: all 0.3s ease;
+    background: #e65959;
 }
 @media (max-width: 990px)
 {
@@ -189,8 +197,8 @@ nav.transparent .menu > li ,nav.transparent .menu > li > a, nav.transparent .mod
     display: block;
     margin-bottom: 0px;
     position: relative;
-    background: #eeeeee;
-
+    background: #f3f3f3;
+    border-bottom: 1px solid #dadada;
 }
 .pricing-table ul li{
 	font-size: 15px;
@@ -215,7 +223,10 @@ a.btn.btn-type-2:hover{
 	background: #7e548c;
 }
 .pricing-table .price p.price_small{
-	font-size: 15px;position: relative;bottom: -20px;right: 20px;color: #f00
+	font-size: 15px;
+  position: relative;
+  bottom: -20px;
+  color: #ff5252;
 }
 /*section1*/
 .section1block{
@@ -243,10 +254,12 @@ a.btn.btn-type-2:hover{
 
 /*section4*/
 .stepimg{
-	height: 60px ;width: auto;margin-right: 15px;
+	height: 100px ;
+  width: auto;
+  margin-right: 15px;
 }
 .stepdot{
-  position: relative;left: 25px
+  position: relative;left: 60px
 }
 .step h5{font-size: 20px;font-weight: 900}
 
@@ -268,12 +281,12 @@ a.btn.btn-type-2:hover{
     margin-left: 0px;
 }
 #section4 .play-button {
-    border: 4px solid #fff;
+    border: 6px solid #68d274;
 }
 /*section5*/
 .section5text{
   background: #ececec;margin: 0px -15px;font-size: 1.3em;
-  position: relative;top: 10px;padding: 10px 5px;font-weight: bold;
+  position: relative;top: 10px;padding: 10px 5px;
   
 }
 .section5block{
@@ -307,7 +320,7 @@ a.btn.btn-type-2:hover{
 
 /*font color*/
 .mainlead{
-	font-size: 20px;line-height: 30px;
+	font-size: 16px;line-height: 24px;
 }
 .deepblue{
 	color: #525f7f!important
@@ -317,4 +330,78 @@ a.btn.btn-type-2:hover{
 }
 .white{
 	color: #ffffff!important
+}
+
+.high {
+  color: #ff5252!important;
+    font-weight: bold;
+}
+
+
+/*floating menu*/
+
+.king_icon {
+  background-color: #e82a2a;
+}
+
+.kleering_icon {
+  background-color: #40b934;
+}
+
+.king_fb_icon {
+  background-color: #274aa2;
+}
+
+.kleering_line_icon {
+  background-color: #28d048;
+}
+
+.demo_account {
+  border: 2px solid #20ffa2;
+    border-radius: 4px;
+    width: 300px;
+    margin: 0 auto;
+    padding: 4px;
+    color: #20ffa2!important;
+}
+
+
+.notice table {
+    border-collapse: collapse;
+    margin: 5px 0px;
+    width: 100%;
+}
+
+.notice table th {
+    background-color: #bf0000;
+    color: #ffffff;
+}
+.notice table th, .notice table td {
+    border: 1px solid black;
+    padding: 5px 10px;
+    text-align: center;
+}
+
+.pr10 {
+  padding-right: 10px;
+}
+
+.pl10 {
+  padding-left: 10px;
+}
+
+.pr20 {
+  padding-right: 20px;
+}
+
+.pl20 {
+  padding-left: 20px;
+}
+
+.pr30 {
+  padding-right: 30px;
+}
+
+.pl30 {
+  padding-left: 30px;
 }

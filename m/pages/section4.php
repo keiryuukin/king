@@ -1,16 +1,16 @@
-<section class="pt32 pb32 image-bg" style="background:#eef4f8" id="section4">
+<section class="pt32 pb32 image-bg" style="background:#e5ffe8;" id="section4">
     
     <div class="container">
     	<div class="row">
     		<div class="col-sm-12 text-center">
-    			  <h3 class="uppercase deepblue mb32">僅需電子郵箱<br>五分鐘完成線上開戶</h3>
+    			  <h3 class="deepblue mb32">僅需電子郵箱<br>五分鐘完成線上開戶</h3>
     		</div>
     	</div>
         <div class="row ">
                 <div class="videoblock col-xs-6 text-left-xs">
                      <div class="modal-container">
                      	<div class="playvideo text-right ">
-                     		<div class="play-button btn-modal"></div>
+                     		<div class="play-button2 btn-modal"></div>
                      		<img src="img/playvideo.png" >	
                      	</div>
                         <div class="foundry_modal video_modal no-bg">
