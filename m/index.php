@@ -5,8 +5,10 @@
         <title>期王金融 台指期貨交易平台</title>
         <?php include 'include/meta.php' ?>
         <?php include 'include/css.php' ?>
+        
     </head>
     <body>
+    <div id='loading'><div class="img"><img src="../img/loading.gif" alt="" width="80px"></div></div>
 		<div class="main-container">
 			<?php include 'pages/logo.php' ?>
 			<?php include 'pages/slider.php' ?>
@@ -41,6 +43,11 @@
 		</div>
 				
 		<?php include 'include/js.php' ?>
+		<script>
+        	$(window).load(function(){
+        		$("#loading").fadeOut(100)
+        	})
+        </script>
     </body>
 </html>
 				

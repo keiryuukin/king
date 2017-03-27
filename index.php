@@ -2,11 +2,27 @@
 <html lang="zh-TW">
     <head>
         <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
         <title>期王金融 台指期貨交易平台</title>
         <?php include 'include/meta.php' ?>
        	<?php include 'include/css.php' ?>
+       	<script src="js/jquery.min.js"></script>
+       	<script>
+       		    var currentURL = window.location.href;
+       				var windowWidth = $(window).width();
+       		    if (windowWidth < 769) {
+       		        window.location.href = "http://www.king75888.com/m/";
+       		    }
+       		    /*$(function(){
+       		    	$("#loading").height($(window).height())
+       		    })*/
+       		    $(window).load(function(){
+       		    	$("#loading").fadeOut(100)
+       		    })
+       	</script>
     </head>
     <body>
+    <div id='loading'><div class="img"><img src="img/loading.gif" alt="" width="80px"></div></div>
 		<?php include 'pages/nav.php' ?>
 		<div class="main-container">
 			<?php include 'pages/slider.php' ?>

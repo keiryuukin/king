@@ -26,10 +26,7 @@
 		        $(this).parent().parent().toggleClass("in");
 		    }
 			});
-
-  		 SA.redirection_mobile ({
-  		    mobile_url : "www.king75888.com/m/",
-  		});	
+      
 
        
 	});

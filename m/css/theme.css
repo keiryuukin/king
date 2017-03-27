@@ -684,6 +684,8 @@ footer.bg-dark li,
   -webkit-transition: all 0.3s ease;
   -moz-transition: all 0.3s ease;
   opacity: 0;
+  -webkit-background-size: cover!important;
+  background-size: cover!important;
 }
 .background-image-holder img {
   display: none;
@@ -4817,9 +4819,9 @@ video {
   width: 50%;
   position: fixed;
   padding: 80px 48px;
-  transition: all 0.3s ease;
-  -webkit-transition: all 0.3s ease;
-  -moz-transition: all 0.3s ease;
+  transition: all 0.1s ease;
+  -webkit-transition: all 0.1s ease;
+  -moz-transition: all 0.1s ease;
   opacity: 0;
   visibility: hidden;
   top: 50%;
@@ -4864,7 +4866,7 @@ video {
 .foundry_modal .close-modal {
   z-index: 4;
   position: absolute;
-  top: 24px;
+  /*top: 24px;*/
   right: 32px;
   cursor: pointer;
   font-size: 18px;
@@ -4872,6 +4874,9 @@ video {
 .foundry_modal *:not(.background-image-holder):not(.close-modal) {
   z-index: 4;
   position: relative;
+  margin: 0 auto;
+  display: block;
+  width: 100%;
 }
 .foundry_modal.image-bg .close-modal,
 .foundry_modal.no-bg .close-modal {

@@ -3,7 +3,37 @@
 [class*="entypo-"]:before {
    font-family: "entypo", sans-serif;
 }
-
+#loading{
+      z-index: 9999;
+    width: 100%;
+    height: 100%;
+    left: 0;
+    top: 0;
+    color: #fff;
+    position: fixed;
+    text-align: center;
+    border-radius: 5px;
+    background-color: rgba(255,255,255,0.5);
+    /*background-image: url(../img/loading.gif);*/
+    background-position: center center;
+    /*background-repeat: no-repeat;-webkit-background-size: 80px 60px;*/
+    background-size: 80px 60px;
+}
+#loading .img{
+  border-radius: 50%;
+  overflow: hidden;
+  display: inline-block;
+  width: 80px;height: 80px;
+  background-color: #fff;
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  margin-left: -40px;
+  margin-top: -40px;
+}
+#loading .img img{
+  margin-top: 10px;
+}
 #sticky-social {
    right: 0px;
    position: fixed;
@@ -35,9 +65,9 @@
   height: 90vh;
 }
 .foundry_modal.video_modal .close-modal {
-    z-index: 4;
+    z-index: 99;
     position: absolute;
-    top: 60px;
+    top: 84px;
     right: 50px;
     cursor: pointer;
     font-size: 30px;
@@ -47,6 +77,8 @@
 }
 .foundry_modal.video_modal.no-bg {
   text-align: center;
+  display: inline-block;
+  width: auto;
 }
 body {
     -webkit-font-smoothing: antialiased;
@@ -63,7 +95,7 @@ h4 {
     line-height: 36px;
 }
 .caseslider{
-  position: relative;background: url(../img/phonecase.png) center center;
+  position: relative;background: url(../img/bg-phone.png) center center;
   background-repeat: no-repeat;
   background-size: 80%;
   padding: 30px 0px;
@@ -404,4 +436,40 @@ a.btn.btn-type-2:hover{
 
 .pl30 {
   padding-left: 30px;
+}
+.mobile-screen {
+    width: 80%;
+    margin: 0 auto;
+    background-position: center center;
+    overflow: hidden;
+    background-size: 100% auto;
+    padding-top: 6%;
+    padding-bottom: 6%;
+}
+.mobile-screen .screen {
+    width: 79%;
+    /* height: 328px; */
+    /* margin-top: 15.3%; */
+    margin-left: 10.5%;
+    /* padding: 1% 0 0 5%; */
+    position: relative;
+}
+.mobile-screen .screen img {
+    position: absolute;
+    opacity: 0;
+    transition: all 0.5s;
+    top: 0;
+    width: 100%;
+    left: 0;
+}
+.mobile-screen .screen img.active {
+    display: block;
+    opacity: 1;
+}
+.mobile-screen .slider-assist{
+  width: 79%;
+  margin: 0 auto;
+}
+.mobile-screen .slider-assist img{
+width: 100%;
 }

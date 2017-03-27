@@ -685,6 +685,10 @@ footer.bg-dark li,
   -webkit-transition: all 0.3s ease;
   -moz-transition: all 0.3s ease;
   opacity: 0;
+  -webkit-background-size: cover!important;
+
+  background-size: cover!important;
+  
 }
 .background-image-holder img {
   display: none;
@@ -707,6 +711,8 @@ footer.bg-dark li,
 .parallax:first-child .slides li > .background-image-holder,
 .parallax:first-child .background-image-holder {
   top: 0;
+  -webkit-background-size: cover!important;
+  background-size: cover!important;
 }
 .main-container > a:first-child + .parallax .background-image-holder {
   top: 0;
@@ -1740,7 +1746,7 @@ input.transparent,
 button.transparent {
   background: none;
   border: 1px solid rgba(255, 255, 255, 0.5);
-  color: #fff !important	;
+  color: #fff !important  ;
 }
 input[type="text"]:focus,
 input[type="password"]:focus {
@@ -2579,7 +2585,7 @@ button[type="submit"] .form-loading {
   .page-title-4 .breadcrumb,
   .page-title-2 .breadcrumb {
     float: left;
-    margin-top: 8	px;
+    margin-top: 8 px;
   }
 }
 /*!---------- 17. PAGINATION ----------*/
@@ -4759,6 +4765,7 @@ video {
 .foundry_modal {
   overflow: hidden;
   max-width: 50%;
+  display: inline-block;
   width: 50%;
   position: fixed;
   padding: 80px 48px;
@@ -4803,8 +4810,8 @@ video {
   opacity: 1;
   visibility: visible;
   z-index: 9999;
-  transform: translateX(-50%) translateY(-40%);
-  -webkit-transform: translateX(-50%) translateY(-50%);
+  transform: none;
+  left:15%;
 }
 .foundry_modal .close-modal {
   z-index: 4;
@@ -4829,7 +4836,7 @@ video {
 @media all and (min-width: 1500px) {
   .foundry_modal {
     max-width: 45%;
-    width: 45%;
+    width: auto;
   }
 }
 @media all and (max-width: 1190px) {
